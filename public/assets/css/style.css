@@ -1,0 +1,105 @@
+	#header{
+		color: #fff;
+		background-color: red;
+	}
+   #menu{
+   	list-style: none;
+   }
+   #menu li{
+   	display: inline-block;
+   	margin: 10px;
+   }
+   #menu li a{
+   	text-decoration: none;
+   	color: #fff;
+   	padding: 15px 10px;
+   }
+   a:hover{
+   	background-color: blue;
+   }
+   #banner{
+      /*background-color: blue;*/
+   	background:url('../img/f2.jpg');
+      /*background-image: no-repeat;*/
+    background-size: cover;
+   }
+   #banner h1{
+      display: inline-block;
+      background-color: #fff;
+      margin: 0;
+      color: red;
+      padding: 10px;
+   }
+   #banner .lead{
+      color: #fff;
+      background-color: yellow;
+   } 
+  #formalert{
+   padding: 10px,15px;
+   background-color: orange;
+   color:white;
+   font-size: 10px;
+   font-weight: 300;
+   /*display: none;*/
+   position: absolute;
+   top: 25px;
+   right: 30;
+   z-index: 100;
+  }
+  #adminbackground{
+         background: url('../img/blog/naturl1.jpg');
+         height: 600px;
+         color: white;
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+
+   .form-box{
+      /*margin: 150px;*/
+      margin-top: 50px;
+      margin-left:400px; 
+      height:500px;
+      width: 500px;
+      background-color: transparent;
+      position: relative;
+      /*color: gray;*/
+      padding: 25px;
+      /*text-align: center;*/
+      /*display: inline-flex;*/
+   }
+   .text-white{
+      color: white;
+   }
+   #submit{
+      width: 100px;
+      margin-right: 50px;
+   }
+   #submit_register{
+      width: 200px;
+   }
+  .form-box .divh{
+   text-align: center;
+   font-size: 40px;
+   font-weight: 600;
+   width: 100%;
+   background-color: white;
+   color: gray;
+   border-radius: 5px;
+  }
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width:20%;
+  border-radius: 50%;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+
+}
+     

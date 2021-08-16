@@ -1,0 +1,81 @@
+
+.model{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	background-color:rgba(0,0,0,0.7);
+	height: 100%;
+	width: 100%;
+	display:none;
+}
+.model-form{
+	background-color: #fff;
+	width: 40%;
+	height: 50%;
+	top: 20%;
+	left: 35%;
+	position: relative;
+	padding: 15px;
+	border-radius: 5px;
+}
+#model-form h2{
+	margin: 0 0 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #000;
+}
+#clos-btn{
+	background-color:gray;
+	color: white;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	right: -15px;
+	top: -15px;
+	line-height:30px;
+	position: absolute;
+	cursor: pointer;
+}
+.popup_form
+{
+	background:orange;
+	height: 350px;
+	margin: 30px;
+	border-radius:20px;
+    border: 1px solid;
+	right: 15px;
+	padding: 20px;
+	width: 250px;
+	z-index: 9;
+	display: none;
+	position: fixed;
+}
+.popup_form input[type=email],.popup_form input[type=text], .popup_form input[type=password] {
+  width: 100%;
+  padding: 3px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.popup_form .btn-primary
+{
+	margin:2px;
+	padding:3px;
+	width: 200px;
+}
+.popup_form .btn-primary:hover{
+	background-color:  #04AA6D;
+	
+}
+a {
+    text-decoration: none !important;
+}
+a:hover {
+  text-decoration: underline;
+}
+@media screen and (min-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
